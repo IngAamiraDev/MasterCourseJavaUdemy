@@ -752,5 +752,5 @@
 - Poblando con Datos de Ejemplo y Probando en Postman
 - Validando campos
 
-### Recusrsos
-- [Master Completo Java de Cero a Experto](https://www.udemy.com/course/master-completo-java-de-cero-a-experto)
+### Recursos Adicionales
+<a href="https://www.udemy.com/course/master-completo-java-de-cero-a-experto" target="_blank">Master Completo Java de Cero a Experto</a>
