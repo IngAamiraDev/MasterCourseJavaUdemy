@@ -1,3 +1,5 @@
+package com.ingaamira.modules.intro;
+
 import java.util.Map;
 
 public class EjemploVariablesDeEntorno {

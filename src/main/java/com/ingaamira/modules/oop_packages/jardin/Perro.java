@@ -1,6 +1,6 @@
-package org.aguzman.app.jardin;
+package com.ingaamira.modules.oop_packages.jardin;
 
-import org.aguzman.app.hogar.Persona;
+import com.ingaamira.modules.oop_packages.hogar.Persona;
 
 public class Perro {
 

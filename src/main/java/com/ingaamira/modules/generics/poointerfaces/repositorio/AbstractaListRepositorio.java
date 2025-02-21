@@ -1,6 +1,6 @@
-package org.aguzman.poointerfaces.repositorio;
+package com.ingaamira.modules.generics.poointerfaces.repositorio;
 
-import org.aguzman.poointerfaces.modelo.BaseEntity;
+import com.ingaamira.modules.generics.poointerfaces.modelo.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;

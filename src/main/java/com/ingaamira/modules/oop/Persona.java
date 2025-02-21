@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public class Persona {
 
     private String nombre;

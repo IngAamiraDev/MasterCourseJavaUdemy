@@ -1,3 +1,5 @@
+package com.ingaamira.modules.arrays;
+
 public class EjemploArreglosOrdenPrincipioFinal {
     public static void main(String[] args) {
 

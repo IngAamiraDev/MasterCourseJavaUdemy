@@ -1,3 +1,4 @@
+package com.ingaamira.modules.oop;
 
 public class EjemploAutomovilStatic {
     public static void main(String[] args) {

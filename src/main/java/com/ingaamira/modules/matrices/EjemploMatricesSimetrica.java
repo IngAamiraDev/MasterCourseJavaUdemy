@@ -1,3 +1,5 @@
+package com.ingaamira.modules.matrices;
+
 public class EjemploMatricesSimetrica {
     public static void main(String[] args) {
         boolean simetrica = true;

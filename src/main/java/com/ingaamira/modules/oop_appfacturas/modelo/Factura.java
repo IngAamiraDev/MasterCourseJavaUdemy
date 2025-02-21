@@ -1,4 +1,4 @@
-package org.aguzman.appfacturas.modelo;
+package com.ingaamira.modules.oop_appfacturas.modelo;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

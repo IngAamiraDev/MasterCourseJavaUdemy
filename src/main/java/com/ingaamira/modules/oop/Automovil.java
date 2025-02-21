@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public class Automovil implements Comparable<Automovil>{
 
     private int id;

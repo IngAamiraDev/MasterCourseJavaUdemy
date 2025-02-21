@@ -1,3 +1,5 @@
+package com.ingaamira.modules.intro;
+
 import java.lang.reflect.Method;
 
 public class EjemploMetodoGetClass {

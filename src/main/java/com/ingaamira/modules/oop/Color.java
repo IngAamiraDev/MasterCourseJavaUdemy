@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public enum Color {
     ROJO("Rojo"),
     AMARILLO("Amarillo"),

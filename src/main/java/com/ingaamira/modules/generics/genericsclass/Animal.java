@@ -1,4 +1,4 @@
-package org.aguzman.genericsclass;
+package com.ingaamira.modules.generics.genericsclass;
 
 public class Animal {
     private String nombre;

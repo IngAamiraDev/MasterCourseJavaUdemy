@@ -1,3 +1,5 @@
+package com.ingaamira.modules.matrices;
+
 public class EjemploMatricesColumnasVariable {
     public static void main(String[] args) {
 

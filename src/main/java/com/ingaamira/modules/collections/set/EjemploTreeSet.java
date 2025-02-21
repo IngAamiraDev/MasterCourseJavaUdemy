@@ -1,4 +1,4 @@
-package com.ingaamira.modules._24._collections.set;
+package com.ingaamira.modules.collections.set;
 
 import java.util.Comparator;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.ingaamira.modules._24._collections.modelo;
+package com.ingaamira.modules.collections.modelo;
 
 import java.util.Objects;
 

@@ -1,3 +1,5 @@
+package com.ingaamira.modules.intro;
+
 public class ArgumentosLineaComandoCalculadora {
     public static void main(String[] args) {
         if(args.length != 3){

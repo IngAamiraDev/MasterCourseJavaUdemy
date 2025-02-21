@@ -1,3 +1,5 @@
+package com.ingaamira.modules.intro;
+
 public class WrapperInteger {
     public static void main(String[] args) {
 

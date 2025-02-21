@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 import java.util.Arrays;
 
 public class EjemploAutomovilArreglo {

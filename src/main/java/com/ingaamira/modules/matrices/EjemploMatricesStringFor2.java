@@ -1,3 +1,5 @@
+package com.ingaamira.modules.matrices;
+
 public class EjemploMatricesStringFor2 {
     public static void main(String[] args) {
 

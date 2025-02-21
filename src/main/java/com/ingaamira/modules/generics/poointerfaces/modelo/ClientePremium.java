@@ -1,4 +1,4 @@
-package org.aguzman.poointerfaces.modelo;
+package com.ingaamira.modules.generics.poointerfaces.modelo;
 
 public class ClientePremium  extends Cliente implements Comparable<ClientePremium>{
     public ClientePremium(String nombre, String apellido) {

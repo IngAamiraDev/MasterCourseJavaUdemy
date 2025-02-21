@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public class Motor {
     private double cilindrada;
     private TipoMotor tipo;

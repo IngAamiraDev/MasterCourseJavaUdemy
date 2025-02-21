@@ -1,6 +1,6 @@
-package org.aguzman.appfacturas;
+package com.ingaamira.modules.oop_appfacturas;
 
-import org.aguzman.appfacturas.modelo.*;
+import com.ingaamira.modules.oop_appfacturas.modelo.*;
 
 import java.util.Scanner;
 

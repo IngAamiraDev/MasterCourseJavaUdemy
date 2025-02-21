@@ -1,8 +1,8 @@
-package org.aguzman.app.hogar;
+package com.ingaamira.modules.oop_packages.hogar;
 
-import org.aguzman.app.jardin.Perro;
+import com.ingaamira.modules.oop_packages.jardin.Perro;
 
-import static org.aguzman.app.hogar.Persona.saludar;
+import static com.ingaamira.modules.oop_packages.hogar.Persona.saludar;
 
 public class EjemploHogar {
     public static void main(String[] args) {

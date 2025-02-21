@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public enum TipoAutomovil {
     SEDAN("Sedan", "Auto mediano", 4),
     STATION_WAGON("Station Wagon", "Auto grande", 5),

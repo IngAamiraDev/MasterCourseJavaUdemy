@@ -1,8 +1,8 @@
-package org.aguzman.pooclasesabstractas.form.elementos;
+package com.ingaamira.modules.oop_abstract_classes.form.elementos;
 
-import org.aguzman.pooclasesabstractas.form.validador.LargoValidador;
-import org.aguzman.pooclasesabstractas.form.validador.Validador;
-import org.aguzman.pooclasesabstractas.form.validador.mensaje.MensajeFormateable;
+import com.ingaamira.modules.oop_abstract_classes.form.validador.LargoValidador;
+import com.ingaamira.modules.oop_abstract_classes.form.validador.Validador;
+import com.ingaamira.modules.oop_abstract_classes.form.validador.mensaje.MensajeFormateable;
 
 import java.util.ArrayList;
 import java.util.List;

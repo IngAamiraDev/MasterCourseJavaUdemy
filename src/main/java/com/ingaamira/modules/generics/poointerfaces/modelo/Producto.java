@@ -1,4 +1,4 @@
-package org.aguzman.poointerfaces.modelo;
+package com.ingaamira.modules.generics.poointerfaces.modelo;
 
 public class Producto extends BaseEntity{
     private String descripcion;

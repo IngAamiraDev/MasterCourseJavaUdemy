@@ -1,9 +1,9 @@
-package org.aguzman.app.jardin;
+package com.ingaamira.modules.oop_packages.jardin;
 
-import org.aguzman.app.hogar.*;
+import com.ingaamira.modules.oop_packages.hogar.*;
 
-import static org.aguzman.app.hogar.Persona.*;
-import static org.aguzman.app.hogar.ColorPelo.*;
+import static com.ingaamira.modules.oop_packages.hogar.Persona.*;
+import static com.ingaamira.modules.oop_packages.hogar.ColorPelo.*;
 
 public class EjemploPaquetes {
     public static void main(String[] args) {

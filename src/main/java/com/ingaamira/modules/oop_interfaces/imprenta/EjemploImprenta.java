@@ -1,8 +1,8 @@
-package org.aguzman.poointerfaces.imprenta;
+package com.ingaamira.modules.oop_interfaces.imprenta;
 
-import org.aguzman.poointerfaces.imprenta.modelo.*;
-import static org.aguzman.poointerfaces.imprenta.modelo.Genero.*;
-import static org.aguzman.poointerfaces.imprenta.modelo.Imprimible.*;
+import com.ingaamira.modules.oop_interfaces.imprenta.modelo.*;
+import static com.ingaamira.modules.oop_interfaces.imprenta.modelo.Genero.*;
+import static com.ingaamira.modules.oop_interfaces.imprenta.modelo.Imprimible.*;
 
 public class EjemploImprenta {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.ingaamira.modules.arrays;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

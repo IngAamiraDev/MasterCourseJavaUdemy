@@ -1,4 +1,4 @@
-package org.aguzman.app.hogar;
+package com.ingaamira.modules.oop_packages.hogar;
 
 public class Persona {
     private  String nombre;

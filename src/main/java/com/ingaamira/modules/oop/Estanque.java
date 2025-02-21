@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public class Estanque {
     private int capacidad;
 

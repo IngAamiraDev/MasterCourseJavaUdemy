@@ -1,4 +1,4 @@
-package com.ingaamira.modules.control_flows;
+package com.ingaamira.modules.intro;
 
 import javax.swing.*;
 

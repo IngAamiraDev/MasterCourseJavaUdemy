@@ -1,4 +1,4 @@
-package org.aguzman.pooclasesabstractas.form.validador;
+package com.ingaamira.modules.oop_abstract_classes.form.validador;
 
 public class NoNuloValidador extends Validador {
 

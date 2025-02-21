@@ -1,3 +1,5 @@
+package com.ingaamira.modules.oop;
+
 public class Rueda {
     private String fabricante;
     private int aro;

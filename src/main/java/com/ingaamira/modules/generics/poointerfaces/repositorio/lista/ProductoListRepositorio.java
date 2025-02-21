@@ -1,8 +1,8 @@
-package org.aguzman.poointerfaces.repositorio.lista;
+package com.ingaamira.modules.generics.poointerfaces.repositorio.lista;
 
-import org.aguzman.poointerfaces.modelo.Producto;
-import org.aguzman.poointerfaces.repositorio.AbstractaListRepositorio;
-import org.aguzman.poointerfaces.repositorio.Direccion;
+import com.ingaamira.modules.generics.poointerfaces.modelo.Producto;
+import com.ingaamira.modules.generics.poointerfaces.repositorio.AbstractaListRepositorio;
+import com.ingaamira.modules.generics.poointerfaces.repositorio.Direccion;
 
 import java.util.ArrayList;
 import java.util.List;

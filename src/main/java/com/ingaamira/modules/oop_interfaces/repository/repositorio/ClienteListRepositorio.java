@@ -1,6 +1,6 @@
-package org.aguzman.poointerfaces.repositorio;
+package com.ingaamira.modules.oop_interfaces.repository.repositorio;
 
-import org.aguzman.poointerfaces.modelo.Cliente;
+import com.ingaamira.modules.oop_interfaces.repository.modelo.Cliente;
 
 import java.util.ArrayList;
 import java.util.Comparator;

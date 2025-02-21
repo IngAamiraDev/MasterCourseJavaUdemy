@@ -1,4 +1,4 @@
-package org.aguzman.poointerfaces.imprenta.modelo;
+package com.ingaamira.modules.oop_interfaces.imprenta.modelo;
 
 public class Pagina extends Hoja implements Imprimible {
     public Pagina(String contenido) {

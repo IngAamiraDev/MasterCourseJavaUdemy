@@ -1,4 +1,4 @@
-package org.aguzman.poointerfaces.modelo;
+package com.ingaamira.modules.generics.poointerfaces.modelo;
 
 import java.util.Objects;
 

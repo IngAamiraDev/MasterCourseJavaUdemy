@@ -1,4 +1,4 @@
-package com.ingaamira.modules.control_flows;
+package com.ingaamira.modules.intro;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

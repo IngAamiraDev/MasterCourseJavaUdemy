@@ -1,4 +1,4 @@
-package com.ingaamira.modules._24._collections.set;
+package com.ingaamira.modules.collections.set;
 
 import java.util.*;
 
@@ -27,6 +27,7 @@ public class EjemploHashSetAgregar {
          - No mantiene un orden específico al almacenar los datos
          - Cada add retorna un boolean
          - Los "Set" como las "Listas" comparten la misma interface "collection"
+         - No se requiere declarar el tamaño del array
         */
 
     }

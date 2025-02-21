@@ -1,3 +1,5 @@
+package com.ingaamira.modules.matrices;
+
 public class EjemploMatricesSumarFilasColumnas {
     public static void main(String[] args) {
         int sumaFila, sumaColumna;

@@ -1,4 +1,4 @@
-package org.aguzman.appfacturas.modelo;
+package com.ingaamira.modules.oop_appfacturas.modelo;
 
 public class ItemFactura {
 

@@ -1,3 +1,5 @@
+package com.ingaamira.modules.intro;
+
 import java.io.FileInputStream;
 import java.util.Properties;
 

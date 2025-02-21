@@ -1,6 +1,6 @@
-package org.aguzman.pooclasesabstractas.form.validador;
+package com.ingaamira.modules.oop_abstract_classes.form.validador;
 
-import org.aguzman.pooclasesabstractas.form.validador.mensaje.MensajeFormateable;
+import com.ingaamira.modules.oop_abstract_classes.form.validador.mensaje.MensajeFormateable;
 
 public class LargoValidador extends Validador implements MensajeFormateable {
 

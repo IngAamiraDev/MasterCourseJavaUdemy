@@ -1,6 +1,6 @@
-package com.ingaamira.modules._24._collections.list;
+package com.ingaamira.modules.collections.list;
 
-import com.ingaamira.modules._24._collections.modelo.Alumno;
+import com.ingaamira.modules.collections.modelo.Alumno;
 
 import java.util.ArrayList;
 import java.util.List;

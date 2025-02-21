@@ -1,8 +1,8 @@
-package org.aguzman.pooclasesabstractas.form;
+package com.ingaamira.modules.oop_abstract_classes.form;
 
-import org.aguzman.pooclasesabstractas.form.elementos.*;
-import org.aguzman.pooclasesabstractas.form.elementos.select.Opcion;
-import org.aguzman.pooclasesabstractas.form.validador.*;
+import com.ingaamira.modules.oop_abstract_classes.form.elementos.*;
+import com.ingaamira.modules.oop_abstract_classes.form.elementos.select.Opcion;
+import com.ingaamira.modules.oop_abstract_classes.form.validador.*;
 
 import java.util.Arrays;
 import java.util.List;

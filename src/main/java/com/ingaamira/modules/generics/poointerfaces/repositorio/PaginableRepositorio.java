@@ -1,4 +1,4 @@
-package org.aguzman.poointerfaces.repositorio;
+package com.ingaamira.modules.generics.poointerfaces.repositorio;
 
 import java.util.List;
 

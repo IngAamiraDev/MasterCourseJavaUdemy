@@ -1,9 +1,9 @@
-package org.aguzman.poointerfaces;
+package com.ingaamira.modules.generics.poointerfaces;
 
-import org.aguzman.poointerfaces.modelo.Producto;
-import org.aguzman.poointerfaces.repositorio.Direccion;
-import org.aguzman.poointerfaces.repositorio.OrdenablePaginableCrudRepositorio;
-import org.aguzman.poointerfaces.repositorio.lista.ProductoListRepositorio;
+import com.ingaamira.modules.generics.poointerfaces.modelo.Producto;
+import com.ingaamira.modules.generics.poointerfaces.repositorio.Direccion;
+import com.ingaamira.modules.generics.poointerfaces.repositorio.OrdenablePaginableCrudRepositorio;
+import com.ingaamira.modules.generics.poointerfaces.repositorio.lista.ProductoListRepositorio;
 
 import java.util.List;
 

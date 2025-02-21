@@ -1,4 +1,4 @@
-package com.ingaamira.modules.control_flows;
+package com.ingaamira.modules.intro;
 
 public class OperadoresAsignacion {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class OperadoresAsignacion {
         j *= 3; // j = j * 3;
         System.out.println("j = " + j);
         
-        String sqlString = "select * from clientes as c";
+        String sqlString = "mensaje * from clientes as c";
         sqlString += " where c.nombre='Andres' ";
         sqlString += " and c.activo=1";
         System.out.println("sqlString = " + sqlString);

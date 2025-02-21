@@ -1,4 +1,4 @@
-package com.ingaamira.modules.control_flows;
+package com.ingaamira.modules.intro;
 
 public class SentenciasBucleEtiquetas {
     public static void main(String[] args) {

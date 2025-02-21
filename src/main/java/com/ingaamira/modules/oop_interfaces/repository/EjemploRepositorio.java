@@ -1,7 +1,7 @@
-package org.aguzman.poointerfaces;
+package com.ingaamira.modules.oop_interfaces.repository;
 
-import org.aguzman.poointerfaces.modelo.Cliente;
-import org.aguzman.poointerfaces.repositorio.*;
+import com.ingaamira.modules.oop_interfaces.repository.modelo.Cliente;
+import com.ingaamira.modules.oop_interfaces.repository.repositorio.*;
 
 import java.util.List;
 

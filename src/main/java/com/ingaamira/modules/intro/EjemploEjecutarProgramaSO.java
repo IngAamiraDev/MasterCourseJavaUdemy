@@ -1,3 +1,5 @@
+package com.ingaamira.modules.intro;
+
 public class EjemploEjecutarProgramaSO {
     public static void main(String[] args) {
 

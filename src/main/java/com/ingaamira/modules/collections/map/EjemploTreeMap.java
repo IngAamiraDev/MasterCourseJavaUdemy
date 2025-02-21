@@ -1,4 +1,4 @@
-package com.ingaamira.modules._24._collections.map;
+package com.ingaamira.modules.collections.map;
 
 import java.util.*;
 
