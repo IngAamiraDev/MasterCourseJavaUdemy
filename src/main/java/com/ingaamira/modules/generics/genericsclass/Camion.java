@@ -1,4 +1,4 @@
-package org.aguzman.genericsclass;
+package com.ingaamira.modules.generics.genericsclass;
 
 import java.util.ArrayList;
 import java.util.Iterator;

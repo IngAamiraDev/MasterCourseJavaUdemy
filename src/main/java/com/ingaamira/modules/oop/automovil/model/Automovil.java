@@ -1,7 +1,13 @@
-package com.ingaamira.modules.oop;
+package com.ingaamira.modules.oop.automovil.model;
 
-public class Automovil implements Comparable<Automovil>{
+/**
+ * Representa un automóvil con atributos como fabricante, modelo, color, motor, estanque de combustible,
+ * conductor y ruedas. Implementa la interfaz Comparable para permitir la comparación entre automóviles
+ * basándose en el fabricante.
+ */
+public class Automovil implements Comparable<Automovil> {
 
+    // Atributos de la clase
     private int id;
     private String fabricante;
     private String modelo;
@@ -11,60 +17,79 @@ public class Automovil implements Comparable<Automovil>{
     private Persona conductor;
     private Rueda[] ruedas;
     private int indiceRuedas;
-
     private TipoAutomovil tipo;
 
+    // Atributos estáticos (compartidos entre todas las instancias)
     private static Color colorPatente = Color.NARANJO;
     private static int capacidadEstanqueEstatico = 30;
     private static int ultimoId;
 
+    // Constantes
     public static final Integer VELOCIDAD_MAX_CARRETERA = 120;
     public static final int VELOCIDAD_MAX_CIUDAD = 60;
 
+    // Definición de colores en formato de cadena
     public static final String COLOR_ROJO = "Rojo";
     public static final String COLOR_AMARILLO = "Amarillo";
     public static final String COLOR_AZUL = "Azul";
     public static final String COLOR_BLANCO = "Blanco";
     public static final String COLOR_GRIS = "Gris Oscuro";
 
+    /**
+     * Constructor por defecto que inicializa el automóvil con un ID único
+     * y un arreglo de ruedas con capacidad para 4 elementos.
+     */
     public Automovil() {
         this.id = ++ultimoId;
         this.ruedas = new Rueda[5];
     }
 
+    /**
+     * Constructor que inicializa fabricante y modelo.
+     */
     public Automovil(String fabricante, String modelo) {
         this();
         this.fabricante = fabricante;
         this.modelo = modelo;
     }
 
-    public Automovil(String fabricante, String modelo, Color color){
+    /**
+     * Constructor que inicializa fabricante, modelo y color.
+     */
+    public Automovil(String fabricante, String modelo, Color color) {
         this(fabricante, modelo);
         this.color = color;
     }
 
+    /**
+     * Constructor que inicializa fabricante, modelo, color y motor.
+     */
     public Automovil(String fabricante, String modelo, Color color, Motor motor) {
         this(fabricante, modelo, color);
         this.motor = motor;
     }
 
+    /**
+     * Constructor que inicializa fabricante, modelo, color, motor y estanque.
+     */
     public Automovil(String fabricante, String modelo, Color color, Motor motor, Estanque estanque) {
         this(fabricante, modelo, color, motor);
         this.estanque = estanque;
     }
 
+    /**
+     * Constructor que inicializa todos los atributos del automóvil.
+     */
     public Automovil(String fabricante, String modelo, Color color, Motor motor, Estanque estanque, Persona conductor, Rueda[] ruedas) {
         this(fabricante, modelo, color, motor, estanque);
         this.conductor = conductor;
         this.ruedas = ruedas;
     }
 
+    // Métodos getter y setter
+
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getFabricante() {
@@ -91,11 +116,11 @@ public class Automovil implements Comparable<Automovil>{
         this.color = color;
     }
 
-    public static Color getColorPatente(){
+    public static Color getColorPatente() {
         return colorPatente;
     }
 
-    public static void setColorPatente(Color colorPatente){
+    public static void setColorPatente(Color colorPatente) {
         Automovil.colorPatente = colorPatente;
     }
 
@@ -123,8 +148,11 @@ public class Automovil implements Comparable<Automovil>{
         this.motor = motor;
     }
 
+    /**
+     * Obtiene el estanque del automóvil. Si el estanque es nulo, se inicializa con una nueva instancia.
+     */
     public Estanque getEstanque() {
-        if(estanque == null){
+        if (estanque == null) {
             this.estanque = new Estanque();
         }
         return estanque;
@@ -150,34 +178,42 @@ public class Automovil implements Comparable<Automovil>{
         this.ruedas = ruedas;
     }
 
-    public Automovil addRueda(Rueda rueda){
-        if(indiceRuedas < this.ruedas.length) {
+    /**
+     * Agrega una rueda al automóvil si aún hay espacio disponible.
+     */
+    public Automovil addRueda(Rueda rueda) {
+        if (indiceRuedas < this.ruedas.length) {
             this.ruedas[indiceRuedas++] = rueda;
         }
         return this;
     }
 
+    // Métodos funcionales
+
+    /**
+     * Devuelve un detalle con la información del automóvil.
+     */
     public String verDetalle() {
-        String detalle =  "auto.id = " + this.id +
+        String detalle = "auto.id = " + this.id +
                 "\nauto.fabricante = " + this.getFabricante() +
                 "\nauto.modelo = " + this.getModelo();
 
-        if(this.getTipo() != null) {
+        if (this.getTipo() != null) {
             detalle += "\nauto.tipo = " + this.getTipo().getDescripcion();
         }
 
         detalle += "\nauto.color = " + this.color +
                 "\nauto.patenteColor = " + colorPatente;
 
-        if(this.motor != null) {
+        if (this.motor != null) {
             detalle += "\nauto.cilindrada = " + this.motor.getCilindrada();
         }
 
-        if(conductor != null) {
-            detalle += "\nConductor subaru:" + this.getConductor();
+        if (conductor != null) {
+            detalle += "\nConductor: " + this.getConductor();
         }
 
-        if(getRuedas() != null) {
+        if (getRuedas() != null) {
             detalle += "\nRuedas del automóvil:";
             for (Rueda r : this.getRuedas()) {
                 detalle += "\n" + r.getFabricante() + ", aro: " + r.getAro() + ", ancho: " + r.getAncho();
@@ -188,7 +224,7 @@ public class Automovil implements Comparable<Automovil>{
     }
 
     public String acelerar(int rpm) {
-        return "el auto " + this.fabricante + " acelerando a " + rpm + "rpm";
+        return "El auto " + this.fabricante + " acelerando a " + rpm + " rpm";
     }
 
     public String frenar() {
@@ -196,9 +232,7 @@ public class Automovil implements Comparable<Automovil>{
     }
 
     public String acelerarFrenar(int rpm) {
-        String acelerar = this.acelerar(rpm);
-        String frenar = this.frenar();
-        return acelerar + "\n" + frenar;
+        return this.acelerar(rpm) + "\n" + this.frenar();
     }
 
     public float calcularConsumo(int km, float porcentajeBencina) {
@@ -213,19 +247,16 @@ public class Automovil implements Comparable<Automovil>{
         return km / (Automovil.capacidadEstanqueEstatico * (porcentajeBencina / 100f));
     }
 
+    // Sobrescritura de métodos
+
     @Override
     public boolean equals(Object obj) {
-
-        if(this == obj){
-            return true;
-        }
-        if(!(obj instanceof Automovil)){
-            return false;
-        }
+        if (this == obj) return true;
+        if (!(obj instanceof Automovil)) return false;
         Automovil a = (Automovil) obj;
-        return (this.fabricante != null && this.modelo != null
-                && this.fabricante.equals(a.getFabricante())
-                && this.modelo.equals(a.getModelo()));
+        return this.fabricante != null && this.modelo != null &&
+                this.fabricante.equals(a.getFabricante()) &&
+                this.modelo.equals(a.getModelo());
     }
 
     @Override

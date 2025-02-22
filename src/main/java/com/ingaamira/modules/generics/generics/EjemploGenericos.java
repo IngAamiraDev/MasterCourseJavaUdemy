@@ -1,7 +1,7 @@
-package org.aguzman.generics;
+package com.ingaamira.modules.generics.generics;
 
-import org.aguzman.poointerfaces.modelo.Cliente;
-import org.aguzman.poointerfaces.modelo.ClientePremium;
+import com.ingaamira.modules.generics.poointerfaces.modelo.Cliente;
+import com.ingaamira.modules.generics.poointerfaces.modelo.ClientePremium;
 
 import java.util.ArrayList;
 import java.util.Arrays;

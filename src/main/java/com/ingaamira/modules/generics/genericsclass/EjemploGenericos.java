@@ -1,4 +1,4 @@
-package org.aguzman.genericsclass;
+package com.ingaamira.modules.generics.genericsclass;
 
 public class EjemploGenericos {
     public static <T> void imprimirCamion(Camion<T> camion){

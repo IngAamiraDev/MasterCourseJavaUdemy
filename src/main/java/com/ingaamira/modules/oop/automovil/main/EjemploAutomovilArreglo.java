@@ -1,52 +1,58 @@
-package com.ingaamira.modules.oop;
+package com.ingaamira.modules.oop.automovil.main;
+
+import com.ingaamira.modules.oop.automovil.model.*;
 
 import java.util.Arrays;
 
+/**
+ * Clase que demuestra el uso de arreglos y ordenación en objetos de tipo Automovil.
+ */
 public class EjemploAutomovilArreglo {
+
+    /**
+     * Método principal que crea una lista de automóviles, los ordena y los imprime.
+     *
+     * @param args Argumentos de línea de comandos (no utilizados).
+     */
     public static void main(String[] args) {
 
-        Persona conductorSubaru = new Persona("Luci", "Martínez");
+        // Creación de automóviles con conductores
         Automovil subaru = new Automovil("Subaru", "Impreza");
         subaru.setMotor(new Motor(2.0, TipoMotor.BENCINA));
         subaru.setEstanque(new Estanque());
         subaru.setColor(Color.BLANCO);
         subaru.setTipo(TipoAutomovil.HATCHBACK);
-        subaru.setConductor(conductorSubaru);
+        subaru.setConductor(new Persona("Luci", "Martínez"));
 
-        Persona pato = new Persona("Pato", "Rodríguez");
         Automovil mazda = new Automovil("Mazda", "BT-50", Color.ROJO, new Motor(3.0, TipoMotor.DIESEL));
         mazda.setTipo(TipoAutomovil.PICKUP);
         mazda.setEstanque(new Estanque());
-        mazda.setConductor(pato);
+        mazda.setConductor(new Persona("Pato", "Rodríguez"));
 
-        Persona bea = new Persona("Bea", "González");
         Automovil nissan = new Automovil("Nissan", "Navara", Color.GRIS,
                 new Motor(4.0, TipoMotor.DIESEL), new Estanque(50));
-        nissan.setConductor(bea);
+        nissan.setConductor(new Persona("Bea", "González"));
         nissan.setTipo(TipoAutomovil.PICKUP);
 
-        Persona lalo = new Persona("Lalo", "Mena");
         Automovil suzuki = new Automovil("Suzuki", "Vitara", Color.GRIS,
                 new Motor(1.6, TipoMotor.BENCINA), new Estanque(50));
-        suzuki.setConductor(lalo);
+        suzuki.setConductor(new Persona("Lalo", "Mena"));
         suzuki.setColor(Color.AMARILLO);
         suzuki.setTipo(TipoAutomovil.SUV);
-        Automovil.setColorPatente(Color.AZUL);
 
         Automovil audi = new Automovil("Audi", "A3");
         audi.setConductor(new Persona("Jano", "Pérez"));
 
-        Automovil[] autos = new Automovil[5];
-        autos[0] = subaru;
-        autos[1] = mazda;
-        autos[2] = nissan;
-        autos[3] = suzuki;
-        autos[4] = audi;
+        // Arreglo de automóviles
+        Automovil[] autos = {subaru, mazda, nissan, suzuki, audi};
 
+        // Ordenar los automóviles por fabricante (implementado en Automovil)
         Arrays.sort(autos);
+
+        // Imprimir automóviles ordenados
+        System.out.println("Automóviles ordenados por fabricante:");
         for (Automovil auto : autos) {
             System.out.println(auto);
         }
-
     }
 }

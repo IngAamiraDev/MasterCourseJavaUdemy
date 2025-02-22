@@ -1,4 +1,4 @@
-package org.aguzman.genericsclass;
+package com.ingaamira.modules.generics.genericsclass;
 
 public class Maquinaria {
     private String tipo;
