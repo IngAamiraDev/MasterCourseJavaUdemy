@@ -1,7 +1,12 @@
-package org.aguzman.ejemplo;
+package com.ingaamira.modules.oop_inheritance.main;
 
-import org.aguzman.pooherencia.*;
+import com.ingaamira.modules.oop_inheritance.model.*;
 
+/**
+ * Clase principal que demuestra el uso de la herencia en Java.
+ * Se crean instancias de Alumno, AlumnoInternacional y Profesor,
+ * y se muestran sus propiedades y relaciones de herencia.
+ */
 public class EjemploHerencia {
     public static void main(String[] args) {
 
@@ -37,15 +42,16 @@ public class EjemploHerencia {
                 + " " + alumno.getApellido()
                 + " " + alumno.getInstitucion());
         System.out.println(alumnoInt.getNombre()
-        + " " +  alumnoInt.getApellido()
-        + " " + alumnoInt.getInstitucion()
-        + " " + alumnoInt.getPais());
+                + " " +  alumnoInt.getApellido()
+                + " " + alumnoInt.getInstitucion()
+                + " " + alumnoInt.getPais());
 
         System.out.println("Profesor " + profesor.getAsignatura()
                 + ": " +  profesor.getNombre()
                 + " " + profesor.getApellido());
 
-        Class clase = alumnoInt.getClass();
+        // Muestra la jerarquía de clases de AlumnoInternacional
+        Class<?> clase = alumnoInt.getClass();
         while(clase.getSuperclass() != null){
             String hija = clase.getName();
             String padre = clase.getSuperclass().getName();
@@ -53,4 +59,5 @@ public class EjemploHerencia {
             clase = clase.getSuperclass();
         }
     }
+
 }

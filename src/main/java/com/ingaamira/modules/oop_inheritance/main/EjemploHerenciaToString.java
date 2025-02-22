@@ -1,10 +1,12 @@
-package org.aguzman.ejemplo;
+package com.ingaamira.modules.oop_inheritance.main;
 
-import org.aguzman.pooherencia.Alumno;
-import org.aguzman.pooherencia.AlumnoInternacional;
-import org.aguzman.pooherencia.Persona;
-import org.aguzman.pooherencia.Profesor;
+import com.ingaamira.modules.oop_inheritance.model.*;
 
+/**
+ * Clase principal para demostrar el uso de la herencia en Java.
+ * Se crean instancias de Alumno, AlumnoInternacional y Profesor
+ * y se imprimen sus detalles utilizando el método toString().
+ */
 public class EjemploHerenciaToString {
     public static void main(String[] args) {
 
@@ -37,6 +39,10 @@ public class EjemploHerenciaToString {
         imprimir(profesor);
     }
 
+    /**
+     * Método para imprimir la representación en cadena de un objeto Persona.
+     * @param persona Objeto de tipo Persona o una de sus subclases.
+     */
     public static void imprimir(Persona persona){
         System.out.println(" ==================================");
         System.out.println(persona);

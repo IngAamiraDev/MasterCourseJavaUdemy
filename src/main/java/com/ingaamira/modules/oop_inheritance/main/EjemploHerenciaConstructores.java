@@ -1,7 +1,12 @@
-package org.aguzman.ejemplo;
+package com.ingaamira.modules.oop_inheritance.main;
 
-import org.aguzman.pooherencia.*;
+import com.ingaamira.modules.oop_inheritance.model.*;
 
+/**
+ * Clase principal que demuestra el uso de constructores en la herencia en Java.
+ * Se crean instancias de Alumno, AlumnoInternacional y Profesor utilizando diferentes constructores,
+ * y se imprimen sus atributos y métodos heredados.
+ */
 public class EjemploHerenciaConstructores {
     public static void main(String[] args) {
 
@@ -34,6 +39,10 @@ public class EjemploHerenciaConstructores {
         imprimir(profesor);
     }
 
+    /**
+     * Método para imprimir los datos de una instancia de Persona y sus subclases.
+     * @param persona Objeto de tipo Persona o sus subclases.
+     */
     public static void imprimir(Persona persona){
         System.out.println("Imprimiendo datos en común del tipo Persona:");
         System.out.println("nombre: " + persona.getNombre()
