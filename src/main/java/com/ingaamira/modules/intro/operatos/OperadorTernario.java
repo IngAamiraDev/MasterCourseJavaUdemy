@@ -1,4 +1,4 @@
-package com.ingaamira.modules.intro;
+package com.ingaamira.modules.intro.operatos;
 
 import java.util.Scanner;
 

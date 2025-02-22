@@ -2,8 +2,8 @@ package com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.list;
 
 import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.AbstractaListRepositorio;
 import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.Direccion;
-import org.aguzman.poointerfaces.modelo.Cliente;
-import org.aguzman.poointerfaces.repositorio.excepciones.LecturaAccesoDatoException;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.model.Cliente;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.exception.LecturaAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;

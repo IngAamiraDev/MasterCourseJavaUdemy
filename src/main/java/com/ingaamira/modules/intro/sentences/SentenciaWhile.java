@@ -1,4 +1,4 @@
-package com.ingaamira.modules.intro;
+package com.ingaamira.modules.intro.sentences;
 
 public class SentenciaWhile {
     public static void main(String[] args) {

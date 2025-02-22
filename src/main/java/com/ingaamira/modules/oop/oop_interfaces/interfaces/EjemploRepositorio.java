@@ -1,13 +1,14 @@
 package com.ingaamira.modules.oop.oop_interfaces.interfaces;
 
-import com.ingaamira.modules.oop.oop_interfaces.interfaces_2.modelo.*;
-import com.ingaamira.modules.oop.oop_interfaces.interfaces_2.repository.*;
-import com.ingaamira.modules.oop.oop_interfaces.interfaces_2.repository.list.ClienteListRepositorio;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.model.*;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.*;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.exception.AccesoDatoException;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.list.ClienteListRepositorio;
 
 import java.util.List;
 
 public class EjemploRepositorio {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws AccesoDatoException {
 
         OrdenablePaginableCrudRepositorio<Cliente> repo = new ClienteListRepositorio();
         repo.crear(new Cliente("Jano", "Pérez"));

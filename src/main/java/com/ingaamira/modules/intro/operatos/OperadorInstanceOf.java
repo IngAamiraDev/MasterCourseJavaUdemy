@@ -1,4 +1,4 @@
-package com.ingaamira.modules.intro;
+package com.ingaamira.modules.intro.operatos;
 
 public class OperadorInstanceOf {
     public static void main(String[] args) {

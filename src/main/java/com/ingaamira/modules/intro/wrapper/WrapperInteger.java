@@ -1,4 +1,4 @@
-package com.ingaamira.modules.intro;
+package com.ingaamira.modules.intro.wrapper;
 
 public class WrapperInteger {
     public static void main(String[] args) {

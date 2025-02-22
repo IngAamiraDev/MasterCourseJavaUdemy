@@ -1,4 +1,4 @@
-package com.ingaamira.modules.intro;
+package com.ingaamira.modules.intro.operatos;
 
 public class OperadoresLogico {
     public static void main(String[] args) {

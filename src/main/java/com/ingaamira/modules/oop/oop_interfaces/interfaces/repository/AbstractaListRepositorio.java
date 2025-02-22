@@ -1,7 +1,7 @@
 package com.ingaamira.modules.oop.oop_interfaces.interfaces.repository;
 
-import org.aguzman.poointerfaces.modelo.BaseEntity;
-import org.aguzman.poointerfaces.repositorio.excepciones.*;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.model.BaseEntity;
+import com.ingaamira.modules.oop.oop_interfaces.interfaces.repository.exception.*;
 
 import java.util.ArrayList;
 import java.util.List;

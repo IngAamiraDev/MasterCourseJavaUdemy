@@ -1,4 +1,4 @@
-package com.ingaamira.modules.intro;
+package com.ingaamira.modules.intro.sentences;
 
 public class SentenciasBucleEtiquetas {
     public static void main(String[] args) {
