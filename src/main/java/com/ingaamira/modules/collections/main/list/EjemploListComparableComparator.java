@@ -1,6 +1,6 @@
-package com.ingaamira.modules.collections.list;
+package com.ingaamira.modules.collections.main.list;
 
-import com.ingaamira.modules.collections.modelo.Alumno;
+import com.ingaamira.modules.collections.model.Alumno;
 
 import java.util.*;
 import static java.util.Comparator.comparing;

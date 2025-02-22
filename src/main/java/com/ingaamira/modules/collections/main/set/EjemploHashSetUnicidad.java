@@ -1,6 +1,6 @@
-package com.ingaamira.modules.collections.set;
+package com.ingaamira.modules.collections.main.set;
 
-import com.ingaamira.modules.collections.modelo.Alumno;
+import com.ingaamira.modules.collections.model.Alumno;
 
 import java.util.*;
 

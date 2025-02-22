@@ -1,4 +1,4 @@
-package com.ingaamira.modules.collections.map;
+package com.ingaamira.modules.collections.main.map;
 
 import java.util.Collection;
 import java.util.HashMap;

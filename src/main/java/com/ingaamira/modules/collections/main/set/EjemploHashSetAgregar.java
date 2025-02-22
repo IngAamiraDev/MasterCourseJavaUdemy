@@ -1,4 +1,4 @@
-package com.ingaamira.modules.collections.set;
+package com.ingaamira.modules.collections.main.set;
 
 import java.util.*;
 
