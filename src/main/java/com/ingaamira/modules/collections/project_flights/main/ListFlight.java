@@ -35,7 +35,7 @@ public class ListFlight {
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm");
 
         // Crear una lista enlazada para almacenar los vuelos
-        List<Flight> arrives = new LinkedList<>();
+        LinkedList<Flight> arrives = new LinkedList<>();
 
         // Agregar vuelos a la lista
         arrives.add(new Flight("AAL 933", "New York", "Santiago", df.parse("2021-08-29 05:39"), 62));
